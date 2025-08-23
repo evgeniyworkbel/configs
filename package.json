@@ -5,8 +5,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "publish": "npm publish --workspaces --access public"
+    "publish": "npm publish --workspaces"
   },
   "license": "ISC",
   "devDependencies": {
