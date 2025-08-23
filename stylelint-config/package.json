@@ -1,0 +1,12 @@
+{
+  "name": "@evgeniyworkbel/stylelint-config",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "peerDependencies": {
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
