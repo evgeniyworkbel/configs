@@ -2,11 +2,14 @@
   "name": "configs",
   "version": "1.0.0",
   "description": "My own configs",
-  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "publish": "npm publish --workspaces"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^3.6.2"
