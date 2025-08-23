@@ -6,9 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build --workspaces",
-    "test": "npm run test --workspaces",
-    "publish": "npm publish --workspaces"
+    "publish": "npm publish --workspaces --access public"
   },
   "license": "ISC",
   "devDependencies": {
