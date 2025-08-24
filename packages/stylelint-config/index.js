@@ -7,5 +7,6 @@ export default {
     "import-notation": null,
     "at-rule-no-unknown": [true, { ignoreAtRules: ["theme"] }],
     "lightness-notation": "number",
+    "custom-property-pattern": "^[a-z][a-z0-9]*(-[*a-z0-9]+)*$",
   },
 };
