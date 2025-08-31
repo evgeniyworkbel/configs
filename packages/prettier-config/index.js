@@ -1,4 +1,5 @@
 export default {
+  printWidth: 100,
   /* Settings provided for prettier-plugin-tailwindcss (https://github.com/tailwindlabs/prettier-plugin-tailwindcss) */
   // For Tailwind v4, do not forget to specify path to importing tailwind using 'tailwindStylesheet'
   // tailwindStylesheet: "./src/app/global.css",
