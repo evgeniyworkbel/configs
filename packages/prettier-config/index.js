@@ -6,6 +6,7 @@ export default {
   // todo: Replace array of many attributes names with simple regex when a feature-request will be merged https://github.com/tailwindlabs/prettier-plugin-tailwindcss/issues/373.
   tailwindAttributes: [
     "className",
+    "defaultClassName",
     "wrapperClassName",
     "titleClassName",
     "descriptionClassName",
